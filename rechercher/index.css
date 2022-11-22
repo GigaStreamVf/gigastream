@@ -1,3 +1,45 @@
 body{
 	background-color: #343434;
 }
+
+#searchbar{
+	width: 88%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding:15px;
+	border-radius: 10px;
+}
+
+input[type=text]:focus {
+	width: 70%;
+}
+
+h1{
+	margin-left: 6.25%;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+#ListFilm{
+	font-size: 150%;
+	margin-left: 2.5%;
+}
+
+.titre{
+	display: list-item;    
+	list-style-type: none;
+}
+
+#ListSerie{
+	font-size: 150%;
+	margin-left: 2.5%;
+}
+
+.reglement{
+	text-align: center;
+	color: white;
+	text-decoration: underline;
+}
