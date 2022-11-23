@@ -6,6 +6,10 @@ h1{
 	text-align: center;
 }
 
+h2{
+	padding-left: 2%;
+}
+
 h3{
 	text-align: center;
 }
@@ -14,9 +18,15 @@ h2{
 	color: #cccccc;
 }
 
+p{
+	text-align: center;
+}
+
 img{
 	padding-left: 10px;
 	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
 	-ms-transition: all 0.5s ease;
