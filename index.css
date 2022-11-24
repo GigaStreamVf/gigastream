@@ -2,8 +2,32 @@ body{
 	background-color: #343434;
 }
 
-.reglement{
+.affiche{
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.affiche:hover{
+	-webkit-transform:scale(1.1);
+	-moz-transform:scale(1.1);
+	-ms-transform:scale(1.1);
+	-o-transform:scale(1.1);
+	transform:scale(1.1);
+}
+
+footer{
 	text-align: center;
+}
+
+.aleatoire{
 	color: white;
+	cursor: help;
+}
+
+.reglement{
+	color: rgb(82, 82, 82);
 	text-decoration: underline;
 }
