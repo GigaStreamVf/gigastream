@@ -38,8 +38,14 @@ a{
 	margin-left: 2.5%;
 }
 
-.reglement{
+.introuvable{
 	text-align: center;
 	color: white;
+	text-decoration: none;
+}
+
+.reglement{
+	text-align: center;
+	color: #525252;
 	text-decoration: underline;
 }

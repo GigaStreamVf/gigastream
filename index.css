@@ -27,7 +27,14 @@ footer{
 	cursor: help;
 }
 
+.introuvable{
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
 .reglement{
-	color: rgb(82, 82, 82);
+	text-align: center;
+	color: #525252;
 	text-decoration: underline;
 }
