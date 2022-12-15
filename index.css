@@ -3,8 +3,9 @@ body{
 }
 
 .affiche{
-    max-width: 100px;
-    max-height: 140px;
+    width: 100px;
+    height: 140px;
+    padding: 5px;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-ms-transition: all 0.3s ease;
