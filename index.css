@@ -5,20 +5,42 @@ body{
 .affiche{
     width: 100px;
     height: 140px;
-    padding: 5px;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-ms-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	transition: all 0.3s ease;
 }
 
-.affiche:hover{
+figure {
+    display: inline-flex;
+    flex-flow: column;
+    max-width: 220px;
+    margin: auto;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+figure:hover {
 	-webkit-transform:scale(1.1);
 	-moz-transform:scale(1.1);
 	-ms-transform:scale(1.1);
 	-o-transform:scale(1.1);
 	transform:scale(1.1);
+}
+
+a{
+	text-decoration: none;
+}
+
+figcaption {
+    background-color: #141414;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    width: 100px;
 }
 
 footer{
