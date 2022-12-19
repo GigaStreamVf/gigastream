@@ -1,0 +1,32 @@
+body{
+	background-color: white;
+    color: black;
+}
+
+.dark-theme {
+    background-color: #343434;
+    color: #FFFFFF;
+}
+
+.oled-theme {
+    background-color: black;
+    color: white;
+}
+
+h1{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+.iframe{
+	text-align: center;
+}
+
+.reglement{
+	text-align: center;
+	color: #E63F2A;
+	text-decoration: underline;
+}
