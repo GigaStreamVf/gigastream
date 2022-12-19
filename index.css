@@ -1,5 +1,16 @@
 body{
-	background-color: #343434;
+	background-color: white;
+    color: black;
+}
+
+.dark-theme {
+    background-color: #343434;
+    color: #FFFFFF;
+}
+
+.oled-theme {
+    background-color: black;
+    color: white;
 }
 
 .affiche{
@@ -88,7 +99,7 @@ footer{
 
 .introuvable{
 	text-align: center;
-	color: white;
+    color: #E63F2A;
 	text-decoration: none;
 }
 
