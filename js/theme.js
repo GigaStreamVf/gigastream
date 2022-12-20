@@ -1,6 +1,6 @@
 var body = document.getElementsByTagName('body')[0];
-var dark_theme_class = 'dark-theme';
 var oled_theme_class = 'oled-theme';
+var light_theme_class = 'light-theme';
 var theme = getCookie('theme');
 if(theme != '') {
     body.classList.add(theme);
@@ -8,25 +8,24 @@ if(theme != '') {
 document.addEventListener('DOMContentLoaded', function () {
     $('#theme-toggle').on('click', function () {
 	
-        if (body.classList.contains(dark_theme_class)) {
-            body.classList.remove(dark_theme_class);
-			body.classList.add(oled_theme_class);
-            $('#mode').text('Oled Mode')
-            setCookie('theme', 'oled-theme');
+        if (body.classList.contains(oled_theme_class)) {
+            body.classList.remove(oled_theme_class);
+			body.classList.add(light_theme_class);
+            $('#mode').text('Light Mode')
+            setCookie('theme', 'light-theme');
         }
         else {
-			if (body.classList.contains(oled_theme_class)) {
-            	body.classList.remove(dark_theme_class);
-				body.classList.remove(oled_theme_class);
-            	$('#mode').text('Light Mode')
-            	setCookie('theme', 'light-theme');
-			}
-			
-			else {
-            	body.classList.add(dark_theme_class);
-            	$('#mode').text('Light Mode')
-            	setCookie('theme', 'dark-theme');
-			}
+            if (body.classList.contains(light_theme_class)) {
+                body.classList.remove(oled_theme_class);
+                body.classList.remove(light_theme_class);
+                $('#mode').text('Dark Mode')
+                setCookie('theme', 'dark-theme');
+            }
+            else{
+                body.classList.add(oled_theme_class);
+                $('#mode').text('Oled Mode')
+                setCookie('theme', 'oled-theme');
+            }
         }
     });
 });

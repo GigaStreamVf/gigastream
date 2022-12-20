@@ -1,11 +1,11 @@
 body{
-	background-color: white;
-    color: black;
-}
-
-.dark-theme {
     background-color: #343434;
     color: #FFFFFF;
+}
+
+.light-theme {
+	background-color: white;
+	color: black;
 }
 
 .oled-theme {
